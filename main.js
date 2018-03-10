@@ -17,12 +17,35 @@ var rand;
 document.getElementById('french').innerHTML = '&nbsp;';
 
 // add event listeners
-document.getElementById('btn').addEventListener("mouseup", generate);
-document.getElementById('btn').addEventListener("keyup", generate);
+document.getElementById('btn').addEventListener("mouseup", handleMouseUp);
+document.getElementById('btn').addEventListener("keyup", handleKeyUp);
 
-// create a random number based on length of array, and output phrase to HTML
+// create a random number based on length of array
 function generate() {
   rand = Math.floor(Math.random() * Math.floor(phrases.length));
   // console.log(rand);
+}
+// output phrase to HTML
+function outputHTML() {
+  // console.log(rand);
   document.getElementById('french').innerHTML = phrases[rand];
+}
+function handleKeyUp(e) {
+  // console.log(e.key);
+  switch (e.key) {
+    case "Enter":
+      generate();
+      outputHTML();
+      break;
+    case " ":
+      generate();
+      outputHTML();
+      break;
+    default:
+      return;
+  }
+}
+function handleMouseUp() {
+  generate();
+  outputHTML();
 }
