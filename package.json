@@ -1,0 +1,23 @@
+{
+  "name": "random-french",
+  "version": "1.0.0",
+  "description": "Random French phrases.",
+  "main": "index.html",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsgreen/random-french.git"
+  },
+  "author": "Douglas Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsgreen/random-french/issues"
+  },
+  "homepage": "https://github.com/dsgreen/random-french#readme"
+}
