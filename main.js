@@ -4,11 +4,14 @@ var phrases = [
   'Mon Dieu.',
   'Au revoir.',
   'O&ucirc; est la piscine?',
-  'Allons y a l\'ecole',
+  'Allons y a l\'ecole.',
   'Je besoin d\'une stylo s\'il vous pla&icirc;t.',
   'Apres midi.',
   'Bon soir.',
-  'Les bon temps rouler.'
+  'Les bon temps rouler.',
+  "Ceci n'est pas un pipe.",
+  'Je suis fatigu&eacute;.',
+  "L'ennui."
 ];
 
 var rand;
